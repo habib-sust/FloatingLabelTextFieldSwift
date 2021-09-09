@@ -10,6 +10,7 @@
 		17D3CF5526EA40BA008A7434 /* FloatingLabelTextFieldSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D3CF4B26EA40BA008A7434 /* FloatingLabelTextFieldSwift.framework */; };
 		17D3CF5A26EA40BA008A7434 /* FloatingLabelTextFieldSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D3CF5926EA40BA008A7434 /* FloatingLabelTextFieldSwiftTests.swift */; };
 		17D3CF5C26EA40BA008A7434 /* FloatingLabelTextFieldSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 17D3CF4E26EA40BA008A7434 /* FloatingLabelTextFieldSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17D3CF6726EA43AD008A7434 /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D3CF6626EA43AD008A7434 /* FloatingLabelTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		17D3CF5426EA40BA008A7434 /* FloatingLabelTextFieldSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FloatingLabelTextFieldSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D3CF5926EA40BA008A7434 /* FloatingLabelTextFieldSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextFieldSwiftTests.swift; sourceTree = "<group>"; };
 		17D3CF5B26EA40BA008A7434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D3CF6626EA43AD008A7434 /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		17D3CF4D26EA40BA008A7434 /* FloatingLabelTextFieldSwift */ = {
 			isa = PBXGroup;
 			children = (
+				17D3CF6526EA434B008A7434 /* Classes */,
 				17D3CF4E26EA40BA008A7434 /* FloatingLabelTextFieldSwift.h */,
 				17D3CF4F26EA40BA008A7434 /* Info.plist */,
 			);
@@ -84,6 +87,14 @@
 				17D3CF5B26EA40BA008A7434 /* Info.plist */,
 			);
 			path = FloatingLabelTextFieldSwiftTests;
+			sourceTree = "<group>";
+		};
+		17D3CF6526EA434B008A7434 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				17D3CF6626EA43AD008A7434 /* FloatingLabelTextField.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 				TargetAttributes = {
 					17D3CF4A26EA40BA008A7434 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					17D3CF5326EA40BA008A7434 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -194,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D3CF6726EA43AD008A7434 /* FloatingLabelTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +354,7 @@
 		17D3CF6026EA40BA008A7434 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = A472P7J2T6;
@@ -359,6 +373,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,6 +382,7 @@
 		17D3CF6126EA40BA008A7434 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = A472P7J2T6;
@@ -393,6 +409,7 @@
 		17D3CF6326EA40BA008A7434 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A472P7J2T6;
 				INFOPLIST_FILE = FloatingLabelTextFieldSwiftTests/Info.plist;
@@ -411,6 +428,7 @@
 		17D3CF6426EA40BA008A7434 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A472P7J2T6;
 				INFOPLIST_FILE = FloatingLabelTextFieldSwiftTests/Info.plist;
