@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FloatingLabelTextFieldSwift"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A beautiful floating label textfield library written in Swift"
   
   spec.description  = <<-DESC
@@ -68,19 +68,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{swift}"
+  spec.source_files  = "Classes/**/*.{swift}"
   spec.framework  = "UIKit"
+  spec.requires_arc = true
 
-
-  # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If your library depends on compiler flags you can set them in the xcconfig hash
-  #  where they will only apply to your library. If you depend on other Podspecs
-  #  you can include multiple dependencies to ensure it works.
-
-  # spec.requires_arc = true
-
-  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # spec.dependency "JSONKit", "~> 1.4"
 
 end
