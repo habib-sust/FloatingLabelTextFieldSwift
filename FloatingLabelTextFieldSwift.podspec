@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FloatingLabelTextFieldSwift"
-  spec.version      = "0.1.2"
+  spec.version      = "0.1.3"
   spec.summary      = "A beautiful floating label textfield library written in Swift"
   
   spec.description  = <<-DESC
@@ -71,6 +71,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "FloatingLabelTextFieldSwift/Classes/**/*.{swift}"
   spec.framework  = "UIKit"
   spec.requires_arc = true
+  spec.swift_version = "5.0"
 
 
 end
