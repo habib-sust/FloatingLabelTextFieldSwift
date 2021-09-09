@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FloatingLabelTextFieldSwift"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A beautiful floating label textfield library written in Swift"
   
   spec.description  = <<-DESC
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://github.com/habib-sust/FloatingLabelTextFieldSwift"
 
 
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE.md" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -68,7 +68,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes/**/*.{swift}"
+  spec.source_files  = "FloatingLabelTextFieldSwift/Classes/**/*.{swift}"
   spec.framework  = "UIKit"
   spec.requires_arc = true
 
