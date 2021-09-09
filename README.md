@@ -11,7 +11,7 @@ $ gem install cocoapods
 ```
 Then simply add `FloatingLabelTextFieldSwift` to your Podfile:
 ```
-pod 'FloatingLabelTextFieldSwift'
+pod 'FloatingLabelTextFieldSwift', '~> 3.0'
 ```
 
 ### Manual
