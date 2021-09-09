@@ -11,9 +11,11 @@ FloatingLabelTextFieldSwift is a small and lightweight UIKit framework written i
 To start using the component add it to your project  using CocoaPods or Manually.
 
 The UI component can be used via the `FloatingLabelTextField` class. This control can be used very similar to `UITextField` - both from Interface Builder of from code.
-![til](./FloatingLabelTextFieldSwift/Example/Example/Gif/demo.gif )
 
-### From Interface Builder
+For details, see the Example project
+
+## Example 
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Installation
 
